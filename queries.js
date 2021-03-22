@@ -5,7 +5,7 @@ const pool = new Pool({
   host: process.env.dbhost,
   database: process.env.dbdatabase,
   password: process.env.dbpassword,
-  port: process.env.dbport,
+  port: process.env.dbport
 })
 
 const getCars = (req, res) => {
