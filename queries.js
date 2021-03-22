@@ -1,11 +1,11 @@
 const Pool = require('pg').Pool
 
 const pool = new Pool({
-  user: process.env.POSTGRESQL_USER,
-  host: 'aadbservice',
-  database: process.env.POSTGRESQL_DATABASE,
-  password: process.env.POSTGRESQL_PASSWORD,
-  port: 5432,
+  user: process.env.dbuser,
+  host: process.env.dbhost,
+  database: process.env.dbdatabase,
+  password: process.env.dbpassword,
+  port: process.env.dbport,
 })
 
 const getCars = (req, res) => {
