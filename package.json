@@ -1,0 +1,19 @@
+{
+  "name": "aa-backend",
+  "version": "1.0.0",
+  "description": "Backend for Cars",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/florianmoss/cars-backend.git"
+  },
+  "author": "Florian Moss",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/florianmoss/cars-backend/issues"
+  },
+  "homepage": "https://github.com/florianmoss/cars-backend#readme"
+}
