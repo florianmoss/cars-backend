@@ -17,7 +17,9 @@ oc get project
 Check out the Environment variables:
 
 POSTGRESQL_USER
+
 POSTGRESQL_PASSWORD
+
 POSTGRESQL_DATABASE
 
 `oc get pods`
