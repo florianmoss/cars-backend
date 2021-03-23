@@ -8,8 +8,10 @@ oc new-project aa-demo
 
 oc get project
 ```
+---------------------------
 
 **Deploy a Database**
+
 `oc new-app postgresql-persistent --name dbapp --param DATABASE_SERVICE_NAME=aadb --param POSTGRESQL_USER=developer --param POSTGRESQL_PASSWORD=developer --param POSTGRESQL_DATABASE=aadb`
 
 Check out the Environment variables:
