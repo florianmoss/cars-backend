@@ -81,6 +81,11 @@ Open the application and make a request to /cars
 
 Select Topology and deploy from Dockerfile, use the frontend repo: `https://github.com/florianmoss/cars-frontend.git`.
 
+Accept all defaults. Once deployed, it will take some time to build the image from the Dockerfile. 
+
+You will have to connect the backend to the frontend, to do this, add the **backendURL** as seen below:
+
+￼![Cars Frontend](image2.png)
 
 ---------------------------
 
