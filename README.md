@@ -83,7 +83,7 @@ Select Topology and deploy from Dockerfile, use the frontend repo: `https://gith
 
 Accept all defaults. Once deployed, it will take some time to build the image from the Dockerfile. 
 
-You will have to connect the backend to the frontend, to do this, add the **backendURL** as seen below:
+You will have to connect the backend to the frontend, to do this, add the **backendURL** as seen below (the actual URL will be different for you, simply use the backend URL with the /cars route added:
 
 ￼![Cars Frontend](image2.png)
 
