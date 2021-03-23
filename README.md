@@ -1,11 +1,13 @@
 # cars-backend
 
 **Log into OpenShift**
-`oc login -u developer -p developer`
+```bash
+oc login -u developer -p developer
 
-`oc new-project aa-demo`
+oc new-project aa-demo
 
-`oc get project`
+oc get project
+```
 
 **Deploy a Database**
 `oc new-app postgresql-persistent --name dbapp --param DATABASE_SERVICE_NAME=aadb --param POSTGRESQL_USER=developer --param POSTGRESQL_PASSWORD=developer --param POSTGRESQL_DATABASE=aadb`
@@ -53,31 +55,28 @@ SELECT * FROM cars;
 
 **Deploy the Backend**
 
-Open the Topolgy
+Open the Topolgy.
 
-Right click -> Add Project -> From Git -> Proceed with defaults and deploy
+Right click -> Add Project -> From Git -> Insert Git Url from below ->  Proceed with defaults and deploy.
 
-Show the Git repository: `https://github.com/florianmoss/cars-backend`
+Git repository: `https://github.com/florianmoss/cars-backend`
 
-Show the index.js and queries.js file.
+Inspect the index.js and queries.js file.
 
 No Dockerfile needed.
 
-Select Topology and explain what has been deployed, proceed by adding the environment variables:
+Select Topology and add the environment variables as seen below:
 
-￼![Cars Backend](config.png)
+￼![Cars Backend](image.png)
 
 Open the application and make a request to /cars
 
 ---------------------------
 
-Deploy the Frontend
+**Deploy the Frontend**
 
-Select Topology and deploy from Dockerfile, use the frontend repo: https://github.com/florianmoss/cars-frontend.git
+Select Topology and deploy from Dockerfile, use the frontend repo: `https://github.com/florianmoss/cars-frontend.git`.
 
-Explain that it is possible to deploy images or from Dockerfile too.
-
-Wait a few seconds and hit the site.
 
 ---------------------------
 
